@@ -5,7 +5,7 @@ body {
   @include font-style(14px, 400, 1.14, none, 0.03em);
   background-color: var(--main-white-color);
   color: var(--accent-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: $mainFont;
 }
 
 html {
